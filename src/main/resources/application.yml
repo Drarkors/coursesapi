@@ -1,0 +1,14 @@
+spring:
+  profile:
+    active: dev
+  output:
+    ansi.enabled: always
+
+  # Datasource Configs
+  datasource:
+    url: jdbc:postgresql://localhost:5432/courses
+    username: admin
+    password: admin
+  # JPA Configs
+  jpa:
+    hibernate.ddl-auto: update
